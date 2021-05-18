@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  rabbitmq:
+    host: 47.96.1.9.113
+    port: 5672
+    user: dustpan
+    password: dustpan1234@
+    listener:
+      direct:
+        acknowledge-mode: manual
