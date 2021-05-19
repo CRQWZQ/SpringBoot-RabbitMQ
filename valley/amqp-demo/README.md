@@ -212,10 +212,13 @@ spring:
 
 ## 附加内容可参考相关文档：
 [Spring AMQP中文文档](https://www.docs4dev.com/docs/zh/spring-amqp/2.1.2.RELEASE/reference/_reference.html#amqp)
-[rabbitmq 官方文档](https://www.baidu.com/link?url=BbwTrHi2dgmqvzdNdfwt4dVx0HE3ioa16tq3k_IxUm71WvN5FXGLx9iFfHm0r8oojUn9X2RlX3ltyKOU8lRjJ_&wd=&eqid=c4f0a82b00162ed20000000360a36363)
+[RabbitMQ 中文文档](http://rabbitmq.mr-ping.com/)
+[rabbitmq 官方文档](https://www.rabbitmq.com/documentation.html)
 [RABBITMQ整合SPRING AMQP、SPRINGBOOT、SPRING CLOUD STREAM](https://www.freesion.com/article/71141002211/)
 [RabbitMQ：@RabbitListener 与 @RabbitHandler 及 消息序列化](https://www.jianshu.com/p/911d987b5f11)
 [rabbitmq：publisher confirms](https://blog.csdn.net/weixin_38380858/article/details/93227652)
+
+
 
 
 
