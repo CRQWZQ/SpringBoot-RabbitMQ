@@ -85,6 +85,8 @@ public class RabbitConfig {
         connectionFactory.setPublisherConfirms(enableConfirm);
         //根据配置决定是否开启 Return 机制
         connectionFactory.setPublisherReturns(enableReturn);
+        //将心跳超时设置为60秒
+        connectionFactory.setRequestedHeartBeat(60);
         return connectionFactory;
     }
 
