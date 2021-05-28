@@ -20,11 +20,11 @@
 ## 2.在引用的`properties` 或者 `yml` 文件中进行具体配置
 > 在`application.properties` 引入对`RabbitMQ`的支持
 ```
-spring.rabbitmq.host=47.96.109.113
+spring.rabbitmq.host=192.168.10.32
 # rabbitmq 连接端口（默认5672）
 spring.rabbitmq.port=5672
-spring.rabbitmq.username=dustpan
-spring.rabbitmq.password=dustpan1234@
+spring.rabbitmq.username=admin  
+spring.rabbitmq.password=admin
 # 消息开启手动确认 manual :手动确认  auto :自动确认
 spring.rabbitmq.listener.direct.acknowledge-mode=manual
 ```
