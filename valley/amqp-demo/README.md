@@ -33,10 +33,10 @@ spring.rabbitmq.listener.direct.acknowledge-mode=manual
 ```
 spring:
   rabbitmq:
-    host: 47.96.1.9.113
+    host: 192.168.10.32 
     port: 5672
-    user: dustpan
-    password: dustpan1234@
+    user: admin
+    password: admin
     listener:
       direct:
         acknowledge-mode: manual
